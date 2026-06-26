@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rolandefe.github.io/My-websitee/sitemap.xml

@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novels | Roland Kalegha</title>
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
-<body><header><div class="brand">
+<body class="novels-page"><header><div class="brand">
 
     <img src="logo.png" alt="Roland Kalegha Logo" class="nav-logo">
 
@@ -28,7 +30,7 @@
 </header><section class="page-header">
     <h1>My Stories</h1>
     <p>Explore the worlds I have created.</p>
-</section><section class="books"><div class="book-card">
+</section><section class="books"><div class="book-card" data-aos="zoom-in">
 
     <div class="status completed">
         COMPLETED MOVIE SCRIPT
@@ -74,5 +76,12 @@
 
 </section><footer>
     <p>© 2026 Roland Kalegha. All Rights Reserved.</p>
-</footer></body>
+</footer><script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script></body>
 </html>
